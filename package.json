@@ -1,0 +1,20 @@
+{
+	"name": "oracle-service-manager",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"start": "node ./bin/www",
+		"nodemon": "nodemon npm start --ignore 'node_modules/**'",
+		"build": "pkg ."
+	},
+	"dependencies": {
+		"compression": "^1.7.4",
+		"cookie-parser": "~1.4.4",
+		"debug": "~2.6.9",
+		"express": "~4.16.1",
+		"helmet": "^3.22.0",
+		"http-errors": "~1.6.3",
+		"jade": "~1.11.0",
+		"morgan": "~1.9.1"
+	}
+}
